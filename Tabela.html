@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>
+    <main>
+        <section id = "student">
+            <h2>Tabela de alunos</h2>
+            <!-- <table>: define a table -->
+                <!-- <thead>: define o cabeçalho da table -->
+                    <!-- <tbody>: define o bofy da tabela -->
+                        <!--<td>: criar um celula -->
+                            <!-- <th> é utilizado para criar celulas especifica do cabeçalho -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Matricula</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eliton</td>
+                        <td>elitonlima.ti@gg.com</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Lton</td>
+                        <td>lima.ti@hh.com</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>filho</td>
+                        <td>filho.son@gmail.com</td>
+                        <td>3</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </section>
+        <section id = "finance">
+            <h2>Tabela de controle financeiro</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- rowspan eu utilizo para mesclar linhas -->
+                        <!-- colspan eu utilizo para mesclar colunas -->
+                        <td rowspan="2">24/05/2023</td>
+                        <td>Despesa</td>
+                        <td>Mensalidade</td>
+                        <td>1.000</td>
+                    </tr>
+                    <tr>
+                        <!-- <td>24/04/2023</td> -->
+                        <td>Despesa</td>
+                        <td>Compra</td>
+                        <td>3.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+</body>
+</html>

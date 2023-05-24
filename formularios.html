@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulario</h1> 
+        <hr>
+        <br>
+        <form>
+            <div>
+                <label for="text">Input de texto:</label>
+                <!-- type: tipo do input -->
+                <!-- Placeholder sugestão de input -->
+                <!-- value vai definir o valor do conteudo um valor pre definido -->
+                <input type="text" id = "texto" name = "nome">
+            </div>
+
+            <div>
+                <label for="senha">Input de senha;</label>
+                <input type="password" id = "senha" name = "senha">
+            </div>
+            <div>
+                <label for="email">Input de email;</label>
+                <input type="email" id = "email" name = "email">
+            </div>
+            <div>
+                <label for="data">Input de data;</label>
+                <input type="date" id = "data" name = "data">
+            </div>
+            <div>
+                <label for="hora">Input de hora;</label>
+                <input type="time" id = "hora" name = "hora">
+            </div>
+            <div>
+                <label for="number">Input de numero;</label>
+                <input type="number" id = "number" name = "number">
+            </div>
+            <div>
+                <label for="file">Input de arquivo;</label>
+                <input type="file" id = "file" name = "file">
+            </div>
+            <div>
+                <label for="url">Input de url;</label>
+                <input type="url" id = "url" name = "url">
+            </div>
+            <div>
+                <label for="color">Input de cor;</label>
+                <input type="color" id = "color" name = "color">
+            </div>
+            <div>
+                <label for="range">Input de range;</label>
+                <input type="range" id = "range" name = "range">
+            </div>
+            <div>
+                <label for="checkbox">Input de checkbox;</label>
+                <input type="checkbox" id = "checkbox" name = "checkbox">
+            </div>
+            <div>
+                <label for="radio">Input de arquivo;</label>
+                <input type="radio" id = "radio" name = "radio">
+            </div>
+            <div>
+                <input type="reset" id = "reset" name = "reset" value = "Limpar">
+            </div>
+            <div>
+                <input type="submit" id = "submit" name = "submit" value = "Enviar">
+            </div>
+            <textarea name="bill" id="bill" cols="30" rows="10"></textarea>
+            <select name="select" id="select">
+                <option value="" disabled selected>Selecione alguma...</option>
+                <option value="receita">Receita</option>
+                <option value="descepa">Despesa</option>
+            </select>
+        </form>
+    </main>
+    
+</body>
+</html>
